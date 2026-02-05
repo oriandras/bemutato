@@ -1,0 +1,21 @@
+# WordPress Core fájlok - ne kövessük, mert a szerverre telepítjük/letöltjük
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+.htaccess
+
+# wp-content
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/mu-plugins/
+
+# IDE
+.idea/
